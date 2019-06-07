@@ -11,6 +11,24 @@
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
+}); */
+
+Route::get('/',function(){
+
+    return view('Pages.dashboard');
+
 });
+
+Route::get('/dashboard2',function(){
+
+    return view('Pages.dashboard2');
+
+});
+Route::get('/details',function(){
+
+    return view('Pages.details');
+
+});
+

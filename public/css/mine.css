@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Oxygen&display=swap');
+
+/* logo */
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+body{
+    background-color: rgb(0, 0, 0,0.05);
+
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+
+   font-family: 'Crimson Text', serif; 
+  /* font-family: 'Oxygen', sans-serif;*/
+    
+}
+/* logo */
+.nav_logo{
+  font-family: 'Pacifico', cursive;
+}
+/* header nav */
+.nav_customize{
+
+    background-color:#16b3e2 !important;
+
+}
+
+.item-align li{
+    padding-left: 3rem !important;
+    color: red;
+}
+
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    
+  }
+  .couresel_align{
+    margin-top: 4rem !important;
+    padding-top: 1rem !important;
+  }
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .image_css{
+   
+    position: relative;
+  top: 30px;
+  width: 100%;
+  height: 200px;
+  
+  background-repeat: no-repeat;
+  background-position: center -30px; 
+  background-size: cover;
+}
+
+.nav_align{
+    padding: 2rem 5rem 4rem 2rem;
+    overflow: hidden;
+}
+
+.nav_align a{
+    color:black;
+    font-size: 25px;   
+    float: left;
+}
+
+.nav_format li a{
+  color:#000000 !important;
+}
+.nav-space li a{
+  width: 200px !important;
+  padding-left: 8rem !important;
+  font-size: 1.5rem;
+}
+  /* couresel */
+
+  .couresel_format h1{
+    color: #DD6F1E;
+  }
+
+  /* cards index */
+  .product-container{
+    overflow: hidden;
+    /* width: 100%; */
+    height: 150px;
+    /* margin-right: 2px; */
+    position: relative;
+    padding-left:1rem; 
+    
+  }
+  .product-image img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition:1s;
+  }  
+  .product-image img:hover{
+    transform: scaley(2.5);
+     z-index:999;
+  }
+.blog-sidebar{
+  padding-right: 2rem;
+}
+.form_border input{
+  border-radius:50px !important; 
+}
+
+.form_border .button{
+  border-radius:50px;
+  color: #DD6F1E;
+}
+
+.search{
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+.search input{
+  width: 250px;
+  height: 30px;
+  text-indent: 32px;
+}
+.search .fa-search{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  color: #DD6F1E;
+}
+
+/* details */
+
+  .image{
+    width: 150%;
+    height: 70%;
+    padding-top: 20px;
+  }
+  @media only screen and (max-width: 768px){
+
+    .image{
+      width: 100%;
+      height: 70%;
+      padding-top: 20px;
+    }
+
+  }
+
+.small_picture{
+  padding-top: 2rem;
+  padding-left: 2.5rem;
+  
+}
+.small_picture .small_pictures{
+  
+  width: 50%; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color:rgb(22, 179, 226,1.5) !important;
+  transition:0.5s ease;
+}
+
+.sticky + a {
+ 
+  font-size: 2px;
+  
+}
