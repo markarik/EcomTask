@@ -6,11 +6,11 @@
             <div class="col-md-3">
                 <div class="product-container ">
                     <div class="product-image">
-                        <img src="{{asset('images/1.jpg')}}" alt=""/>                   
+                    <img src="{{asset('images/1.jpg')}}" alt=""/>                   
                     </div>
                     <div class="card-body column_body">                                   
-                          <a href="#"><i class="fas fa-heart"></i></a></a>
-                          <a href="#">Add to cart <i class="fas fa-cart-plus"></i></a>
+                          <a  href="{{url('/details')}}"><i class="fas fa-heart"></i></a>
+                          <a href="#"><i class="fas fa-cart-plus"></i></a>
                   </div>
               </div>
             </div>
@@ -22,7 +22,7 @@
                     <div class="card-body column_body"> 
                                
                           <a href="#"><i class="fas fa-heart"></i></a></a>
-                          <a href="#">Add to cart <i class="fas fa-cart-plus"></i></a>
+                          <a href="#"><i class="fas fa-cart-plus"></i></a>
                   </div>
               </div>
             </div>
@@ -34,7 +34,7 @@
                     <div class="card-body column_body"> 
                                  
                           <a href="#"><i class="fas fa-heart"></i></a></a>
-                          <a href="#">Add to cart <i class="fas fa-cart-plus"></i></a>
+                          <a href="#"><i class="fas fa-cart-plus"></i></a>
                   </div>
               </div>
             </div>
@@ -46,7 +46,7 @@
                     <div class="card-body column_body"> 
                                  
                           <a href="#"><i class="fas fa-heart"></i></a></a>
-                          <a href="#">Add to cart <i class="fas fa-cart-plus"></i></a>
+                          <a href="#"><i class="fas fa-cart-plus"></i></a>
                   </div>
               </div>
             </div>
@@ -58,7 +58,7 @@
                     <div class="card-body column_body"> 
                                  
                           <a href="#"><i class="fas fa-heart"></i></a></a>
-                          <a href="#">Add to cart <i class="fas fa-cart-plus"></i></a>
+                          <a href="#"><i class="fas fa-cart-plus"></i></a>
                   </div>
               </div>
             </div>
@@ -70,7 +70,7 @@
                     <div class="card-body column_body"> 
                                  
                           <a href="#"><i class="fas fa-heart"></i></a></a>
-                          <a href="#">Add to cart <i class="fas fa-cart-plus"></i></a>
+                          <a href="#"><i class="fas fa-cart-plus"></i></a>
                   </div>
               </div>
             </div>
