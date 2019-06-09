@@ -232,5 +232,8 @@ body{
 }
 .modal-footer .button{
   background: transparent !important;
-
+}
+/* checkout */
+.checkout{
+  font-family: 'Oxygen', sans-serif;
 }

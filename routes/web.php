@@ -35,4 +35,7 @@ Route::get('/details',function(){
 Route::get('/cart',function(){
     return view('Pages.cart');
 });
+Route::get('/checkout',function(){
+    return view('Pages.checkout');
+});
 
