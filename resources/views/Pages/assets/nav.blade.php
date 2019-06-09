@@ -25,7 +25,7 @@
                               <a class="nav-link" href="#">New-Store</a>
                           </li>
                           <li class="nav-item">       
-                              <a class="nav-link navbar2_class" href="#">Cart <span class="badge badge-primary fill">
+                              <a class="nav-link navbar2_class" href="{{url('/cart')}}">Cart <span class="badge badge-primary fill">
                                     0
                                 </span> </a>      
                           </li>

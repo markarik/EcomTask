@@ -17,7 +17,7 @@
 
 Route::get('/',function(){
 
-    return view('Pages.dashboard');
+    return view('Pages.dashboard2');
 
 });
 
@@ -30,5 +30,9 @@ Route::get('/details',function(){
 
     return view('Pages.details');
 
+});
+
+Route::get('/cart',function(){
+    return view('Pages.cart');
 });
 
