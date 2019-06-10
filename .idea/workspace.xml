@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bf374068-b758-4b73-be5c-10887754c74c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/resources/views/Pages/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pages/cart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Pages/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pages/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Pages/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pages/details.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Pages/cart.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="105">
               <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-              <folding>
-                <element signature="e#1007#1026#0#HTML" expanded="true" />
-                <element signature="e#1546#1565#0#HTML" expanded="true" />
-                <element signature="e#2550#2569#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +49,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/Pages/checkout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="428">
+              <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
+              <folding>
+                <element signature="e#5376#5396#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -72,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/Pages/details.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="248" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="248" />
+              <caret line="26" column="248" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="248" />
             </state>
           </provider>
         </entry>
@@ -100,8 +99,8 @@
         <option value="$PROJECT_DIR$/resources/views/Pages/details.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/Pages/assets/nav.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Pages/cart.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/Pages/cart.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Pages/checkout.blade.php" />
       </list>
     </option>
@@ -328,6 +327,7 @@
       <workItem from="1559916268382" duration="1002000" />
       <workItem from="1559929863515" duration="4053000" />
       <workItem from="1560069178829" duration="6245000" />
+      <workItem from="1560145462682" duration="3633000" />
     </task>
     <task id="LOCAL-00001" summary="another">
       <created>1559932467180</created>
@@ -340,13 +340,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11636000" />
+    <option name="totallyTimeSpent" value="15269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="47" width="1346" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.2315951" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.23466258" />
       <window_info id="Structure" order="1" sideWeight="0.50167227" side_tool="true" weight="0.21855828" />
       <window_info id="npm" order="2" sideWeight="0.50167227" side_tool="true" weight="0.21855828" />
       <window_info id="Favorites" order="3" sideWeight="0.50167227" side_tool="true" weight="0.21855828" />
@@ -465,36 +465,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Pages/details.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="248" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="248" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Pages/details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="248" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="248" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Pages/cart.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="105">
           <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding>
-            <element signature="e#1007#1026#0#HTML" expanded="true" />
-            <element signature="e#1546#1565#0#HTML" expanded="true" />
-            <element signature="e#2550#2569#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Pages/checkout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="428">
+          <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
+          <folding>
+            <element signature="e#5376#5396#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

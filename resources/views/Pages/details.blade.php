@@ -4,6 +4,7 @@
 @include('Pages.assets.nav')
 <div class="container-fluid">
         <div class="row">
+               
                 <div class="col-sm-2 small_picture">
                         <div class="small_pictures">
                                 <a href="#"><img src="{{asset('images/2.jpg')}}" class="image" alt="Imac"></a>

@@ -19,7 +19,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                               <th scope="row">1</th>
+                                <td>1</td>
                                 <td>IMac</td>
                                 <td>$200</td>
                                 <td>
@@ -31,7 +31,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
+                                 <td>2</td>
                                 <td>IMac</td>
                                 <td>$200</td>
                                 <td>
@@ -43,7 +43,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
+                                 <td>3</td>
                                 <td>IMac</td>
                                 <td>$200</td>
                                 <td>
@@ -60,7 +60,32 @@
                 </div>
             </div>
             <aside class="col-sm-3 col-md-3">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                <h1>Totals</h1>
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Items</th>
+                            <th>Sub-Total</th>
+
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <th>Tax</th>
+                            <th>Totals</th>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>$10.01</td>
+                            <td>$110.01</td>
+                        </tr>
+
+                        </thead>
+                    </table>
+                </div>
             </aside>
         </div>    
     </div>        
