@@ -237,3 +237,11 @@ body{
 .checkout{
   font-family: 'Oxygen', sans-serif;
 }
+
+
+/* form validation */
+.checkout {
+  max-width: 960px;
+}
+
+.lh-condensed { line-height: 1.25; }
