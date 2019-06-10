@@ -32,22 +32,22 @@
         </div>
         <div class="row">
                 <div class="col-sm-3 col-md-3">
-                        <div> <h5>Number of Ratings</h5></div>
+                        <div> <h3>Number of Ratings</h3></div>
                         <div>
                                 <h5>Comments</h5>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                         </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
-                        <h5>Reviews</h5>
+                        <h3>Reviews</h3>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>  
                 </div>
                 <div class="col-sm-3 col-md-3">
-                        <h5>Description</h5>
+                        <h3>Description</h3>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                 </div>
                 <div class="col-sm-3 col-md-3">
-                        <h5>Return Policy</h5>
+                        <h3>Return Policy</h3>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                 </div>
         </div>
